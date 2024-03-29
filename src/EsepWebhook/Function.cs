@@ -2,6 +2,8 @@ using System.Text;
 using Amazon.Lambda.Core;
 using Newtonsoft.Json;
 
+//TODO #5 test issue creation from vscode
+
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
 
